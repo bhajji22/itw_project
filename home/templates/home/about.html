@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>About DDMS</title>
+  {% load static %}
+  <style>
+    body {
+      background-color: #00246B;
+      color: #CADCFC;
+
+      h1 {
+        width: 50%;
+        margin: 3% 3% 1% 3%;
+        text-align: left;
+        color: #CADCFC;
+        padding: 1rem;
+        text-shadow: 1px 1px 2px #8AB6F9;
+        font-size: 3.7rem;
+      }
+
+      img {
+        position: absolute;
+        width: 35%;
+        top: 25%;
+        right: 3%;
+        border-radius: 10px;
+      }
+
+      h2 {
+        width: 50%;
+        padding: 1rem;
+        margin-left: 3%;
+        text-shadow: 1px 1px 1px #8AB6F9;
+        padding: 1%;
+        font-size: 4rem;
+      }
+
+      p {
+        margin-top: 8%;
+        margin-left: 4%;
+        width: 50%;
+        font-size: 1.4rem;
+        margin-bottom: 5%;
+      }
+
+      h4 {
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 700;
+      }
+
+      ul {
+        margin: 5% auto;
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+
+      li {
+        width: 250px;
+        border: 4px solid white;
+        text-align: center;
+        font-size: 2rem;
+      }
+
+      button {
+        margin-left: 6%;
+        margin-bottom: 6%;
+        width: 12%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">DDMS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link " href="/">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active" href="/about/">About</a>
+        <a class="nav-item nav-link" href="/contact/">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+  <h1 style="text-align:center; margin-left: 330px;">
+    Data Distribution and Management System
+  </h1>
+  <h2 style="text-align:center; margin-left: 330px;">
+    DDMS
+  </h2>
+  <p style="text-align:center; margin-left: 330px;">
+    Unable to manage your organization's files and data efficiently? <br> Having security and authentication issues?
+    <br>Don't worry, We have got it all covered use our DDMS. Manage your data efficiently and keep if safe on the
+    cloud.
+  </p>
+  <form action="/">
+    <button type="submit" class="btn btn-light"
+      style="margin-left: 560px; font-size: x-large; color: #00246B; background-color: #CADCFC;">Sign in</button>
+  </form>
+  <h4>
+    Salient Features
+  </h4>
+  <ul>
+    <li style="margin: 10px;">
+      😁</br>Users control who sees their data
+    </li>
+    <li style="margin: 10px;">
+      😀</br>Scalable, safe and secure
+    </li>
+    <li style="margin: 10px;">
+      😄</br>Easy communication
+    </li>
+  </ul>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+<style>
+body {
+          background-image: url("{% static 'home/hi.png' %}");
+          background-size: 100%;
+          background-attachment: fixed; 
+          backdrop-filter: blur(5px);
+      }
+</style>
+
+</html>
